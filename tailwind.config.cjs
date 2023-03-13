@@ -9,10 +9,11 @@ module.exports = {
       'Inter': ["Inter", "sans-serif"],
       'Sans': ["DM Sans", "sans-serif"]
     },
-    borderRadius: {
-      pic: '4rem'
+    fontSize: {
+      "3xl": ['2rem', '3rem'],
+      "dark": ['1.25rem','2.5rem']
     },
-    
+
 
     extend: {
       colors: {
@@ -21,6 +22,8 @@ module.exports = {
         text: 'rgb(24, 25, 31)',
       }
     },
-    plugins: [],
+    plugins: [ 
+      require('@tailwindcss/forms'),
+  ],
   }
 }

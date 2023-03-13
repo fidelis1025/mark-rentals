@@ -12,6 +12,7 @@
     "@reduxjs/toolkit": "^1.9.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0",
     "react-logger": "^1.1.0",
     "react-paginate": "^8.1.4",
     "react-redux": "^8.0.5",
@@ -22,6 +23,7 @@
     "vite-plugin-svgr": "^2.4.0"
   },
   "devDependencies": {
+    "@tailwindcss/forms": "^0.5.3",
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
     "@vitejs/plugin-react": "^3.1.0",
