@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant&family=DM+Sans:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap');
+
+
+body{
+  box-sizing: border-box; 
+}
+
+.search{
+  width:10rem;
+  color:#FFFFFF; 
+}
+
+.property{
+  width:15rem;
+  color:#FFFFFF;
+}
+
+.secondary{
+  width: 20rem;
+  color:#FFFFFF;
+}
+
+
+/* <div className="md:w-full md:grid md:grid-cols-2 md:divide-x md:border-t">
+<div className="md:w-1/2  md:h-16 md:h-16 md:flex md:justify-center md:items-center">
+  <Room className="md:w-4 md:h-4" />
+  <span>{rooms}</span>
+</div>
+<div className="md:w-1/2 md:h-16 md:flex md:justify-center md:items-center ">
+  <Bath className="md:w-4 md:h-4" />
+  <span>{baths}</span>
+</div>
+</div> */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
