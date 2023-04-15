@@ -23,7 +23,7 @@ const Property = ({ property, perPage }) => {
   };
 
   return (
-    <div className="md:w-full md:min-h-[75rem] md:bg-[#F5F5F5] ">
+    <div className="md:pt-8 md:w-full md:min-h-[75rem] md:bg-[#F5F5F5] ">
      
       <div className="md:flex md:items-center md:justify-center">
         <div className="md:grid md:grid-cols-3 md:grid-rows-2 md:gap-x-12 md:gap-y-16">

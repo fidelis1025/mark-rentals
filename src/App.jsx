@@ -3,7 +3,7 @@ import "./App.css";
 import { Routes, Route } from "react-router-dom";
 
 import HomePage from "./pages/homepage";
-import Properties from "./pages/properties";
+import Properties from "./pages/propertiespage";
 
 function App() {
   return (
