@@ -144,6 +144,71 @@ const Footer = () => {
         <div>
           <p>Copyright © 2020 MarkRentals. All rights reserved</p>
         </div>
+
+        <div className="flex flex-col w-64 space-y-4">
+       <h2 className="text-lg font-bold">Filter Properties</h2>
+       
+
+      <label className="flex flex-col space-y-2">
+  <span className="font-medium">Price</span>
+  <div className="flex space-x-4">
+    <input
+      type="number"
+      name="minPrice"
+      className="border-gray-300 border p-2 rounded-lg"
+      placeholder="Min"
+    />
+    <input
+      type="number"
+      name="maxPrice"
+      className="border-gray-300 border p-2 rounded-lg"
+      placeholder="Max"
+    />
+  </div>
+</label>
+
+
+
+
+      <label className="flex flex-col space-y-2">
+        <span className="font-medium">Number of Rooms</span>
+        <input
+          type="number"
+          name="rooms"
+          className="border-gray-300 border p-2 rounded-lg"
+        />
+      </label>
+      <label className="flex flex-col space-y-2">
+        <span className="font-medium">Property Type</span>
+        <select
+          name="type"
+          className="border-gray-300 border p-2 rounded-lg"
+        >
+          <option value="">All</option>
+          <option value="Apartment">Apartment</option>
+          <option value="House">House</option>
+        </select>
+      </label>
+      <label className="flex flex-col space-y-2">
+        <span className="font-medium">Number of Baths</span>
+        <input
+          type="number"
+          name="baths"
+          className="border-gray-300 border p-2 rounded-lg"
+        />
+      </label>
+      <button
+        type="button"
+        className="bg-blue-500 text-white px-4 py-2 rounded-lg"
+      >
+        Filter
+      </button>
+    </div>
+
+
+
+
+
       </div>
 
      
