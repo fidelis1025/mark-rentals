@@ -51,8 +51,8 @@ export default Welcome;
 // Substitute one
 //   const handleChange = (e) => {
 //     const { name, value } = e.target;
-//     setFilters((prevState) => ({
-//       ...prevState,
+//     setFilters((filters) => ({
+//       ...filters,
 //       [name]: value,
 //     }));
 //   };
