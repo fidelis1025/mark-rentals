@@ -47,9 +47,9 @@ const Navbar = ({ property }) => {
 
           <NavLink to="/properties">Properties</NavLink>
 
-          <NavLink to="tenants">Tenants</NavLink>
+          <NavLink to="/tenants">Tenants</NavLink>
 
-          <NavLink to="contact">Contact Us</NavLink>
+          <NavLink to="/contact">Contact Us</NavLink>
         </div>
 
         <div>

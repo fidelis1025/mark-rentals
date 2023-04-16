@@ -36,11 +36,12 @@ const Filter = ({ property, perPage }) => {
   const pageCount = Math.ceil(filteredData.length / propertyPerPage);
 
   // React pagination on click function
-  const handlePageClick = (event) => {
-    const newPage = (event.selected * propertyPerPage) % filteredData.length;
+  const handlePageClick = (e) => {
+    const newPage = (e.selected * propertyPerPage) % filteredData.length;
     setCurrentPage(newPage);
   };
 
+  // handle change of filter inouts
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFilters((filters) => ({
@@ -48,6 +49,8 @@ const Filter = ({ property, perPage }) => {
       [name]: name === "type" ? value : parseInt(value),
     }));
   };
+
+  //To reset all search parameters
   const handleClear = () => {
     setFilters({
         minPrice: "",

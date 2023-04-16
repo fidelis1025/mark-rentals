@@ -18,7 +18,7 @@ const PropertyCard = ({ image, address, rooms, type, price, baths }) => (
         <p className="capitalize md:mt-1.5 md:mb-1 md:font-Sans md:font-normal md:text-sm md:text-[#818181]">
           {type}
         </p>
-        <p className="md:font-Sans md:font-bold md:text-xl md:text-[#F4511E]">
+        <p className="md:font-Sans md:font-bold md:text-xl md:text-[#F4511E]">$
           {price}
           <span>/Month</span>
         </p>
