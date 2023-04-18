@@ -1,7 +1,7 @@
 import React from "react";
 import image1 from "../../images/istockphoto-166268403-612x612.png";
 
-import Navbar from "../navbar/navbar";
+import Navbar from "../navbar";
 // import MapArea from "../map-area/map-area";
 
 const Welcome = () => (

@@ -1,9 +1,9 @@
 import React from "react";
 
 import image2 from "../../images/unsplash_oGmf8o53LeE.png";
-import PropertyHeading from "../property-heading/property-heading";
+import PropertyHeading from "./property-heading";
 
-import Perks from "../perks/perks";
+import Perks from "./perks";
 
 const PerksSection = () => (
   <div>

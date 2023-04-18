@@ -2,9 +2,9 @@ import { React, useState } from "react";
 import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
 
-import PropertyCard from "../property-card/property-card";
+import PropertyCard from "./property-card";
 import ReactPaginate from "react-paginate";
-import { selectPropertySections } from "../../redux/property-card/property-card.selector";
+import { selectPropertySections } from "../redux/property-card/property-card.selector";
 
 import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 import { IconContext } from "react-icons";

@@ -1,17 +1,17 @@
 import React from "react";
 
-import Navbar from "../components/navbar/navbar";
-import Property from "../components/property/property";
-import Footer from "../components/footer/footer";
-import Filter from "../components/filter/filter";
+import Navbar from "../components/navbar";
+import Property from "../components/property";
+import Footer from "../components/footer";
+import Filter from "../components/filter";
 
 const Properties = () => {
-  const propertyPerPage = 9;
+  // const propertyPerPage = 9;
   const property = "md:bg-[#545454ce]";
   return (
     <div>
       <Navbar property={property} />
-      <Filter perPage={propertyPerPage} />
+      <Filter/>
      
       {/* <Property perPage={propertyPerPage} /> */}
       <Footer />

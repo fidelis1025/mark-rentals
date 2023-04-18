@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
-import { selectCommentsSections } from "../../redux/comments/comments.selector";
+import { selectCommentsSections } from "../redux/comments/comments.selector";
 
 import { RxDotFilled } from "react-icons/rx";
 

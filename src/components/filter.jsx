@@ -2,14 +2,14 @@ import { React, useState } from "react";
 import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
 
-import PropertyCard from "../property-card/property-card";
+import PropertyCard from "./property-card";
 import ReactPaginate from "react-paginate";
-import { selectPropertySections } from "../../redux/property-card/property-card.selector";
+import { selectPropertySections } from "../redux/property-card/property-card.selector";
 
 import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 import { IconContext } from "react-icons";
 
-const Filter = ({ property, perPage }) => {
+const Filter = ({ property }) => {
   const [filters, setFilters] = useState({
     minPrice: "",
     maxPrice: "",
@@ -30,7 +30,7 @@ const Filter = ({ property, perPage }) => {
   });
 
   // React Pagination config
-  const propertyPerPage = perPage;
+  const propertyPerPage = 9;
   const lastIndex = currentPage + propertyPerPage;
   const records = filteredData.slice(currentPage, lastIndex);
   const pageCount = Math.ceil(filteredData.length / propertyPerPage);
