@@ -1,11 +1,11 @@
 import React from "react";
 
-import { ReactComponent as Perks1 } from "../../assets/Vector1.svg";
-import { ReactComponent as Perks2 } from "../../assets/Vector2.svg";
-import { ReactComponent as Perks3 } from "../../assets/Vector3.svg";
-import { ReactComponent as Perks4 } from "../../assets/Vector4.svg";
-import { ReactComponent as Perks5 } from "../../assets/Vector5.svg";
-import { ReactComponent as Perks6 } from "../../assets/Vector6.svg";
+import { ReactComponent as Perks1 } from "./../assets/Vector1.svg";
+import { ReactComponent as Perks2 } from "./../assets/Vector2.svg";
+import { ReactComponent as Perks3 } from "./../assets/Vector3.svg";
+import { ReactComponent as Perks4 } from "./../assets/Vector4.svg";
+import { ReactComponent as Perks5 } from "./../assets/Vector5.svg";
+import { ReactComponent as Perks6 } from "./../assets/Vector6.svg";
 
 const Perks = () => (
   <div className="md:mt-12 md:grid md:grid-cols-3 md:gap-x-4 md:gap-y-2">

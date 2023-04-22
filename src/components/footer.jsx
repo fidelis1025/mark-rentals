@@ -13,7 +13,7 @@ import {
   FaPinterest,
 } from "react-icons/fa";
 
-import { ReactComponent as Logo } from "../../assets/logo2.svg";
+import { ReactComponent as Logo } from "./../assets/logo2.svg";
 
 const Footer = () => {
   return (

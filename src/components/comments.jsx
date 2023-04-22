@@ -5,7 +5,7 @@ import { selectCommentsSections } from "../redux/comments/comments.selector";
 
 import { RxDotFilled } from "react-icons/rx";
 
-import video1 from "../../videos/Real-Estate.webm";
+import video1 from "./../videos/Real-Estate.webm";
 
 const CommentSection = ({ comments }) => {
   const [currentCardIndex, setCurrentCardIndex] = useState(0);

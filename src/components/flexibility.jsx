@@ -1,9 +1,9 @@
 import React from "react";
 
-import image1Url from "../../images/happiness.jpg";
-import image2Url from "../../images/roommates.jpg";
-import image3Url from "../../images/cleaning.jpg";
-import image4Url from "../../images/flexible.jpg";
+import image1Url from "./../images/happiness.jpg";
+import image2Url from "./../images/roommates.jpg";
+import image3Url from "./../images/cleaning.jpg";
+import image4Url from "./../images/flexible.jpg";
 
 import Button from "./button";
 import Form from "./form";
