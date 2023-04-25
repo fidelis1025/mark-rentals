@@ -9,7 +9,7 @@ import propertyReducer from "./property-card/property-card.reducer";
 const persistConfig = {
     key: 'root',
     storage,
-    whitelist: ['property']
+    whitelist: ['']
 }
 
 
