@@ -13,7 +13,7 @@ import {
   FaPinterest,
 } from "react-icons/fa";
 
-import { ReactComponent as Logo } from "./../assets/logo2.svg";
+
 
 const Footer = () => {
   return (
@@ -21,10 +21,8 @@ const Footer = () => {
       <div className="md:px-20">
         <hr className="md:border md:border-[#F4511E] md:my-24" />
       </div>
-      <div className="md:flex">
-        <div className="md:text-[#0A142F]">
-          <Logo />
-        </div>
+      <div className="md:flex md:px-40">
+       
         <div className="md:font-Assistant md:text-[#0A142F]">
           <div className="md:flex md:items-center md:space-x-3">
             <i>
