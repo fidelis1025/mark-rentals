@@ -66,6 +66,28 @@ const Filter = ({ property }) => {
       
         <div className="md:flex md:space-x-12 md:justify-center md:items-end md:my-8">
           <div className="md:flex md:space-x-4 md:justify-center md:items-center">
+          <label className="md:flex md:flex-col md:space-y-2">
+              <span className="md:font-medium">Property Type</span>
+              <select
+                name="type"
+                value={filters.type}
+                onChange={handleChange}
+                className="md:border-gray-300 md:border md:h-10 md:p-2 md:rounded-lg"
+              >
+                <option value="">All</option>
+                <option value="Private room">Private Room</option>
+                <option value="Condo">Condo</option>
+                <option value="Loft">Loft</option>
+                <option value="Alcove Studio">Alcove Studio</option>
+                <option value="Low Rise">Low Rise</option>
+                <option value="Mid Rise">Mid Rise</option>
+                <option value="High Rise">High Rise</option>
+                <option value="Walk Up">Walk Up</option>
+                <option value="Cluster">Cluster</option>
+                <option value="Studio">Studio</option>
+                <option value="Others">Others</option>
+              </select>
+            </label>
             <label className="md:flex md:flex-col md:space-y-2">
               <span className="md:font-medium">Price</span>
 
@@ -100,28 +122,6 @@ const Filter = ({ property }) => {
               />
             </label>
             <label className="md:flex md:flex-col md:space-y-2">
-              <span className="md:font-medium">Property Type</span>
-              <select
-                name="type"
-                value={filters.type}
-                onChange={handleChange}
-                className="md:border-gray-300 md:border md:h-10 md:p-2 md:rounded-lg"
-              >
-                <option value="">All</option>
-                <option value="Private room">Private Room</option>
-                <option value="Condo">Condo</option>
-                <option value="Loft">Loft</option>
-                <option value="Alcove Studio">Alcove Studio</option>
-                <option value="Low Rise">Low Rise</option>
-                <option value="Mid Rise">Mid Rise</option>
-                <option value="High Rise">High Rise</option>
-                <option value="Walk Up">Walk Up</option>
-                <option value="Cluster">Cluster</option>
-                <option value="Studio">Studio</option>
-                <option value="Others">Others</option>
-              </select>
-            </label>
-            <label className="md:flex md:flex-col md:space-y-2">
               <span className="md:font-medium">Number of Baths</span>
               <input
                 type="number"
@@ -131,6 +131,8 @@ const Filter = ({ property }) => {
                 className="md:border-gray-300 md:border md:h-10 md:p-2 md:rounded-lg"
               />
             </label>
+            
+           
           </div>
           <button
             type="button"

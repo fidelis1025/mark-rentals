@@ -13,8 +13,6 @@ import {
   FaPinterest,
 } from "react-icons/fa";
 
-
-
 const Footer = () => {
   return (
     <div>
@@ -22,7 +20,6 @@ const Footer = () => {
         <hr className="md:border md:border-[#F4511E] md:my-24" />
       </div>
       <div className="md:flex md:px-40">
-       
         <div className="md:font-Assistant md:text-[#0A142F]">
           <div className="md:flex md:items-center md:space-x-3">
             <i>
@@ -142,78 +139,12 @@ const Footer = () => {
         <div>
           <p>Copyright © 2020 MarkRentals. All rights reserved</p>
         </div>
-
-
-
-
-
-
-
       </div>
-
-     
-
-      {/* <div class="tracker">
-  <div class="flex items-center justify-between">
-    <div class="flex items-center">
-      <p class="h-6 w-6 rounded-full border-2 border-gray-300 flex items-center justify-center text-gray-500 font-bold">1</p>
-      <div class="h-px w-16 bg-gray-300 ml-2"></div>
-      <p class="h-6 w-6 rounded-full border-2 border-gray-300 flex items-center justify-center text-gray-500 font-bold">2</p>
-      <div class="h-px w-16 bg-gray-300 ml-2"></div>
-      <p class="h-6 w-6 rounded-full border-2 border-gray-300 flex items-center justify-center text-gray-500 font-bold">3</p>
-      <div class="h-px w-16 bg-gray-300 ml-2"></div>
-      <p class="h-6 w-6 rounded-full border-2 border-gray-300 flex items-center justify-center text-gray-500 font-bold">4</p>
-    </div>
-
-    <div class="text-sm font-medium flex items-center">
-      <p class="text-gray-500 mr-2">Kyc</p>
-      <p class="text-gray-500 mr-2">Review</p>
-      <p class="text-gray-500 mr-2">Payment</p>
-      <p class="text-gray-500">Complete</p>
-    </div>
-  </div>
-</div> */}
-
-
-
-
     </div>
   );
 };
 
 export default Footer;
-// import React from "react";
-
-// function Tracker(props) {
-//   return (
-//     <div className="tracker">
-//       <div className="commonClass">
-//         <div className="items">
-//           <p className="circle">1</p>
-//           <div className="hr"></div>
-//           <p className="circle">2</p>
-//           <div className="hr"></div>
-//           <p className="circle">3</p>
-//           <div className="hr"></div>
-//           <p className="circle">4</p>
-//           {/* <p className="descr">kyc</p> */}
-//         </div>
-
-//         <div className="itemsT">
-//           <p className="descr1">Kyc</p>
-//           <p className="descr">Review</p>
-//           <p className="descr">Payment</p>
-//           <p className="descr">Complete</p>
-//         </div>
-
-//         {/* <div className="hr"></div> */}
-//       </div>
-
-//       {/* seperate */}
-//     </div>
-//   );
-// }
-// export default Tracker;
 
 
 // for collapsable search bar
@@ -280,7 +211,6 @@ export default Footer;
 //     </div>
 //   );
 // }
-
 
 // For filter and search functionality
 // import { useState, useEffect } from "react";
